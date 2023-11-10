@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.tribute, .biography {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(14, 224, 105, 0.686);
+}
+
+/* Photo Section */
+.photo img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Quotation Section */
+.quotation h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Biography Section */
+.biography h1 {
+    color: #333;
+    text-align: center;
+}
+
+.biography p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Author Section */
+.author {
+    font-weight: bold;
+    color: #333;
+}
